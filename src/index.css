@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.sidebar-open {
+  width: 250px;
+}
+
+.sidebar-closed {
+  width: 60px;
+}
+
+.dashboard-container {
+  transition: background 0.3s ease;
+}
+
+.dashboard-container:hover {
+  background: #fdfdfd;
+}
